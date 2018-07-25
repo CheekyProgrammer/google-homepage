@@ -1,0 +1,90 @@
+html, body {
+  height: 100px;
+  font-family: sans-serif;
+}
+
+.container {
+  float: right;
+  display: inline;
+  height: 100%;
+  width: auto;
+  word-spacing: 15px;
+  text-decoration: none;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 14px;
+  color: black;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  padding-top: 130px;
+  margin-left: 25%;
+  transform: scale(0.9);
+}
+
+.search {
+  position: relative;
+  text-align: center;
+}
+.box {
+  width: 450px;
+  height: 30px;
+}
+.mic {
+  position: relative;
+	margin: 0;
+	right: 30px;
+	top: 5px;
+}
+
+.mic, .box {
+  transform (0.7);
+}
+
+.b1, .b2 {
+  padding: 5px;
+  margin: 15px;
+}
+
+.country {
+margin-top: 320px;
+}
+
+.left {
+  position: relative;
+	margin:: 0;
+	right: 30px;
+	top: 5px;
+  bottom: 5px;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+.right {
+  float: right;
+  position: relative;
+	margin: 0;
+	right: 30px;
+	top: 5px;
+  bottom: 5px;
+}
+
+footer {
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
